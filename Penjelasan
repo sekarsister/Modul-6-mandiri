@@ -1,0 +1,9 @@
+Penjelasan Program 2:
+
+1. Deklarasi Variabel: Sama seperti program pertama, variabel a dideklarasikan untuk menyimpan input.
+2. Input Pengguna: Membaca input integer menggunakan fmt.Scan(&a).
+3. Nested Loop (Perulangan Bersarang):
+   · Loop Luar (for i := a; i >= 1; i--): Mengontrol jumlah baris yang akan dicetak, dimulai dari a hingga 1.
+   · Loop Dalam (for j := 1; j <= i; j++): Mencetak angka dari 1 hingga nilai i saat ini dalam satu baris.
+   · Setiap selesai loop dalam, fmt.Println() digunakan untuk pindah ke baris baru.
+4. Penanganan Input 0: Jika pengguna menginput 0, program akan mencetak "-".
